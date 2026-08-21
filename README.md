@@ -15,7 +15,7 @@ Demonstrate an end-to-end SOC analyst workflow — attack simulation → detecti
 
 ## Lab Stack
 
-`Wazuh 4.x` · `Ubuntu Server 24.04 LTS (Manager)` · `Windows 11 (Target Agent)` · `Kali Linux (Attacker)` · `VirtualBox Internal Network`
+`Wazuh 4.17` · `Ubuntu Server 24.04 LTS (Manager)` · `Windows 11 (Target Agent)` · `Kali Linux (Attacker)` · `VirtualBox Internal Network`
 
 ## Structure
 
