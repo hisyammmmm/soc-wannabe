@@ -1,10 +1,10 @@
 # SOC Analyst Portfolio
 
-Home lab documenting hands-on detection and response work using **Wazuh SIEM**, covering both manual investigation workflows and automated response pipelines.
+Home lab documenting hands-on detection and response work using **Wazuh SIEM**. Covers both manual investigation workflows and automated response pipelines.
 
 ## Goal
 
-Demonstrate an end-to-end SOC analyst workflow — attack simulation → detection → investigation → automated or manual remediation → documentation — using an open-source SIEM stack, with each case mapped to MITRE ATT&CK and (where applicable) relevant compliance frameworks.
+Demonstrate an end-to-end SOC analyst workflow (attack simulation → detection → investigation → automated or manual remediation → documentation) using an open-source SIEM stack, with each case mapped to MITRE ATT&CK and (where applicable) relevant compliance frameworks.
 
 ## Incident Reports
 
