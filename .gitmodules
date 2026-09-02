@@ -1,0 +1,3 @@
+[submodule "bufferbloat-detection-cnn-1d"]
+	path = bufferbloat-detection-cnn-1d
+	url = https://github.com/hisyammmmm/bufferbloat-detection-cnn-1d.git
