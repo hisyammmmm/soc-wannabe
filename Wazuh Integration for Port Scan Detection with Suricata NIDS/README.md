@@ -39,7 +39,7 @@ This flags any single source IP sending 20+ TCP SYN packets within a 10-second w
 
 ## Attack Simulation
 
-![](images/image%201.png)
+![](images/image1.png)
 
 A full-range SYN scan is run from the attacker (Kali) against the target endpoint:
 
@@ -57,11 +57,11 @@ rule.id:86601
 
 **Suricata Alert — LOCAL Possible Port Scan Detected (Rule ID 86601)**
 
-![](images/image%202.png)
+![](images/image2.png)
 
 Wazuh's built-in Suricata decoder parses `eve.json` and raises the alert under `rule.groups: [ids, suricata]`. Drilling into the raw alert document (below) confirms the full chain: Suricata's own `signature_id: 9000001` (the custom rule) is preserved in `data.alert.signature_id`, alongside the source/destination IPs and the monitored interface (`data.in_iface: enp0s8`) — traceable all the way from the wire to the Wazuh Dashboard.
 
-![](images/image%203.png)
+![](images/image3.png)
 
 ## **MITRE ATT&CK Mapping**
 
